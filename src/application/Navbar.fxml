@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NavbarController">
+   <children>
+      <Label fx:id="Logo" layoutX="24.0" layoutY="16.0" onMouseClicked="#onLogoClicked" prefWidth="108.0" text="CondoBook">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="BBQ" layoutX="55.0" layoutY="62.0" onMouseClicked="#onBBQClicked" text="BBQ Pits" />
+      <Label fx:id="Room" layoutX="155.0" layoutY="62.0" onMouseClicked="#onRoomClicked" text="Function Room" />
+      <Label fx:id="Court" layoutX="285.0" layoutY="62.0" onMouseClicked="#onCourtClicked" text="Tennis Courts" />
+      <Label fx:id="Bookings" layoutX="406.0" layoutY="62.0" onMouseClicked="#onBookingClicked" text="Your Bookings" />
+      <Label fx:id="Others" layoutX="529.0" layoutY="62.0" onMouseClicked="#onOthersClicked" text="Others" />
+   </children>
+   <center>
+   		<fx:include source="UserMenu.fxml" />
+   </center>
+</AnchorPane>

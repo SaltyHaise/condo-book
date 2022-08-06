@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="CondoBook">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="375.0" fitWidth="637.0" layoutX="-7.0" layoutY="42.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@functionpic.jpg" />
+         </image></ImageView>
+      <Label fx:id="BBQ" layoutX="45.0" layoutY="52.0" text="BBQ Pits" textFill="#000000cf" />
+      <Label fx:id="Room" layoutX="145.0" layoutY="52.0" text="Function Room" textFill="#1b3dd1" />
+      <Label fx:id="Court" layoutX="275.0" layoutY="52.0" text="Tennis Courts" />
+      <Label fx:id="Bookings" layoutX="396.0" layoutY="52.0" text="Your Bookings" />
+      <Label fx:id="Others" layoutX="519.0" layoutY="52.0" text="Others" />
+      <Label layoutX="157.0" layoutY="92.0" onMouseClicked="#Room" prefHeight="31.0" prefWidth="307.0" text="Booking for Function Room">
+         <font>
+            <Font name="Cambria" size="25.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="68.0" layoutY="181.0" prefHeight="18.0" prefWidth="175.0" promptText="Select a date for booking" />
+      <Label layoutX="68.0" layoutY="146.0" prefHeight="18.0" prefWidth="124.0" text="Select a date to book:" />
+      <Separator layoutX="288.0" layoutY="146.0" opacity="0.5" orientation="VERTICAL" prefHeight="228.0" prefWidth="0.0" style="-fx-background-color: black;" />
+      <SplitMenuButton layoutX="65.0" layoutY="217.0" mnemonicParsing="false" text="Booking timeslot">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="384.0" layoutY="137.0" text="Details of booking:" />
+      <Label layoutX="348.0" layoutY="172.0" text="Date:16 July" />
+      <Label layoutX="348.0" layoutY="198.0" text="Time: 10.00am-4.00pm" />
+      <Label layoutX="346.0" layoutY="251.0" text="Booking ID: 1178" />
+      <Label layoutX="348.0" layoutY="221.0" text="Booking under: Username" />
+      <Label layoutX="346.0" layoutY="280.0" text="Deposit paid:Yes" />
+   </children>
+</AnchorPane>

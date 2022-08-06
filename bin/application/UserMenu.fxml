@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <TextArea fx:id="Ann1" editable="false" layoutX="14.0" layoutY="149.0" prefHeight="216.0" prefWidth="291.0" text="BBQ Pit Unavailability&#10;&#10;Dear residents, BBQ pits 3-5 will be &#10;closed for safety inspections on the 2-3&#10;August. As a result, bookings for these&#10;facilities will be unavailable during&#10;this time.&#10;&#10;Thank you for your kind &#10;understanding">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="Ann2" editable="false" layoutX="316.0" layoutY="149.0" prefHeight="216.0" prefWidth="291.0" text="Deposit change for function rooms&#10;&#10;Starting 1st August, deposits for booking&#10;function rooms will increase from $100 to &#10;$120. This is to encourage residents to be&#10;more responsible for the use of our rooms&#10;&#10;Thank you for your kind understanding">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="Title" layoutX="98.0" layoutY="93.0" prefHeight="31.0" prefWidth="425.0" text="Welcome, Here are the announcements">
+         <font>
+            <Font name="Cambria" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="355.0" fitWidth="622.0" layoutX="-1.0" layoutY="44.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@interlace.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
